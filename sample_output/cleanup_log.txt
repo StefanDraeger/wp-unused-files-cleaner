@@ -1,0 +1,11 @@
+📄 Ausführungsprotokoll – WordPress Dateiaufräumung
+==================================================
+
+📦 Verarbeitete Dateien:       72451
+🗂️  Ungenutzte Dateien gefunden: 61112
+💾 Speicherverbrauch (gesamt):  2.79 GB
+
+📝 Die folgenden Dateien wurden erstellt:
+- unused_images.txt
+- delete_attachments.sql
+- select_attachments.sql

@@ -30,10 +30,8 @@ A full step-by-step tutorial is available on my blog, including screenshots, bac
 | File / Folder                      | Description |
 |-----------------------------------|-------------|
 | [`findunusedfiles.py`](./findunusedfiles.py) | Scans the local upload directory and compares it to post content in the JSON export. |
-| [`generate_delete_sql.py`](./generate_delete_sql.py) | Creates SQL `DELETE` statements for unused media entries in the `wp_posts` table. |
-| [`sql/export_statement_wp_posts.sql`](./sql/export_statement_wp_posts.sql) | Sample SQL to export ID, title, and content from WordPress. |
-| [`sql/delete_unused_media_sample.sql`](./sql/delete_unused_media_sample.sql) | Sample output with generated SQL statements for deletion. |
 | [`sample_output/unused_images.txt`](./sample_output/unused_images.txt) | Contains all unreferenced image paths. |
+| [`sample_output/cleanup_log.txt`](./sample_output/cleanup_log.txt) | Contains detailed information. |
 | [`images/Ausgabe-Suche-nach-nicht-benutzen-Bildern.png`](./images/Ausgabe-Suche-nach-nicht-benutzen-Bildern.png) | Example of console output from the scanner script. |
 
 ---
